@@ -3,8 +3,14 @@ from utils.keygen import generate_keys
 from utils.proof import generate_proof, verify_proof
 
 if __name__ == "__main__":
-    # 사용자가 증명하길 원하는 숫자 입력
+    """
+    메인 실행 파일.
+
+    - 사용자가 증명하려는 숫자를 입력받아 비밀 키로 사용.
+    - 증명을 생성하고 검증 과정을 실행.
+    """
     try:
+        # 사용자가 증명하길 원하는 숫자 입력
         user_secret = int(input("Enter the number you want to prove (1 <= number < 101): "))
         if not (1 <= user_secret < 101):
             raise ValueError("Number out of range. Must be between 1 and 100.")
