@@ -6,6 +6,56 @@ This project implements a simple **Zero-Knowledge Proof (ZKP)** system using the
 Arguments of Knowledge (SNARKs)**. It demonstrates how a prover can prove the knowledge of a secret number without
 revealing it, using basic modular arithmetic.
 
+## What is ZKP?
+
+### Zero-Knowledge Proof (ZKP)
+
+**Zero-Knowledge Proof (ZKP)** is a cryptographic protocol that allows one party (the prover) to prove to another party (the verifier) that they possess certain information or satisfy specific conditions without revealing any additional information beyond the fact that the statement is true.
+
+### Properties of ZKP
+
+1.   **Completeness**: If the statement is true, an honest verifier will be convinced by the prover.
+2.   **Soundness**: If the statement is false, no prover can convince an honest verifier.
+3.   **Zero-Knowledge**: The verifier learns nothing beyond the validity of the statement.
+
+### Real-world Applications
+
+\- **Cryptocurrencies**: Privacy-focused cryptocurrencies like Zcash.
+
+\- **Authentication**: Proving identity without revealing sensitive data.
+
+\- **Data Privacy**: Proving properties of encrypted data without decrypting it.
+
+----
+
+## What is SNARK?
+
+### SNARK: Succinct Non-interactive Arguments of Knowledge
+
+**SNARK** is a type of Zero-Knowledge Proof with the following properties:
+
+1.   **Succinct**: Proofs are small in size and can be verified quickly.
+2.   **Non-interactive**: The proof is generated and verified in a single step without requiring back-and-forth communication between the prover and verifier.
+3.   **Argument of Knowledge**: Ensures that the prover actually possesses the claimed knowledge.
+
+### SNARK Structure
+
+SNARKs are typically based on advanced mathematical constructs such as:
+
+\- **Quadratic Arithmetic Programs (QAPs)**: To express computation as polynomial equations.
+
+\- **Elliptic Curve Cryptography (ECC)**: For efficient proof generation and verification.
+
+### Applications of SNARK
+
+\- **Blockchain Scalability**: zk-SNARKs in Ethereum Layer 2 solutions (e.g., zk-Rollups).
+
+\- **Privacy**: Zero-knowledge transactions in Zcash.
+
+\- **Verification**: Secure and efficient computation verification.
+
+
+
 ---
 
 ## Features
@@ -119,10 +169,6 @@ hy-zkp-snark
 ├── requirements.txt
 └── utils
     ├── __init__.py
-    ├── __pycache__
-    │   ├── __init__.cpython-312.pyc
-    │   ├── keygen.cpython-312.pyc
-    │   └── proof.cpython-312.pyc
     ├── keygen.py
     └── proof.py
 ```
