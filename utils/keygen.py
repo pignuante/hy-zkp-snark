@@ -1,6 +1,5 @@
 # utils/keygen.py
 import random
-from sympy import mod_inverse, isprime
 
 PRIME = 101  # 소수 (유한군의 크기)
 GENERATOR = 2  # 소수 생성기
