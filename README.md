@@ -20,11 +20,9 @@ revealing it, using basic modular arithmetic.
 
 ### Real-world Applications
 
-\- **Cryptocurrencies**: Privacy-focused cryptocurrencies like Zcash.
-
-\- **Authentication**: Proving identity without revealing sensitive data.
-
-\- **Data Privacy**: Proving properties of encrypted data without decrypting it.
+-    **Cryptocurrencies**: Privacy-focused cryptocurrencies like Zcash.
+-   **Authentication**: Proving identity without revealing sensitive data.
+-   **Data Privacy**: Proving properties of encrypted data without decrypting it.
 
 ----
 
@@ -42,17 +40,14 @@ revealing it, using basic modular arithmetic.
 
 SNARKs are typically based on advanced mathematical constructs such as:
 
-\- **Quadratic Arithmetic Programs (QAPs)**: To express computation as polynomial equations.
-
-\- **Elliptic Curve Cryptography (ECC)**: For efficient proof generation and verification.
+-   **Quadratic Arithmetic Programs (QAPs)**: To express computation as polynomial equations.
+-    **Elliptic Curve Cryptography (ECC)**: For efficient proof generation and verification.
 
 ### Applications of SNARK
 
-\- **Blockchain Scalability**: zk-SNARKs in Ethereum Layer 2 solutions (e.g., zk-Rollups).
-
-\- **Privacy**: Zero-knowledge transactions in Zcash.
-
-\- **Verification**: Secure and efficient computation verification.
+-   **Blockchain Scalability**: zk-SNARKs in Ethereum Layer 2 solutions (e.g., zk-Rollups).
+-   **Privacy**: Zero-knowledge transactions in Zcash.
+-   **Verification**: Secure and efficient computation verification.
 
 
 
